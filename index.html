@@ -9,11 +9,16 @@
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
       body {
         font-family: 'Inter', sans-serif;
-        background-image: url('https://ebwf.world/assets/images/wsc-logo-600x600.png');
-        background-position: center center;
-        background-repeat: no-repeat;
+        background-color: #020617; /* A very dark navy blue as fallback */
+        background-image: 
+          radial-gradient(at 20% 80%, hsla(212, 80%, 15%, 0.3) 0px, transparent 50%),
+          radial-gradient(at 80% 20%, hsla(280, 80%, 20%, 0.3) 0px, transparent 50%),
+          radial-gradient(at 50% 50%, hsla(260, 60%, 5%, 0.5) 0px, transparent 70%),
+          linear-gradient(145deg, #0f172a, #020617, #1e293b);
         background-attachment: fixed;
-        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
       }
     </style>
   <script type="importmap">
@@ -29,7 +34,6 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body class="text-gray-100">
     <div id="root"></div>
