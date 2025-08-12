@@ -1,0 +1,5 @@
+{
+  "name": "Editor de Imagens de Datapack WSC",
+  "description": "Uma ferramenta para editar logos de clubes para o World Soccer Champs, permitindo remover fundo, redimensionar, converter formatos e automatizar o processo de criação de logos.",
+  "requestFramePermissions": []
+}
