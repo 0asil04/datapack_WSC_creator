@@ -29,7 +29,7 @@ export const LEGENDS: { id: string; name: string }[] = [
     { id: '89040025', name: 'Chipi Guzmán' },
     { id: '89040026', name: 'N. Ganjavi' },
     { id: '89040027', name: 'Marcus Jagger' },
-    { id: '89040028', name: 'R. Skonderoviç' },
+    { "id": "89040028", "name": "R. Skonderoviç" },
     { id: '89040029', name: 'S. McHennicks' },
     { id: '89040030', name: 'Kloter Zhelino' },
     { id: '89040031', name: 'M. Panjaitani' },
@@ -57,720 +57,921 @@ export const CONTINENTS: Record<string, string> = {
 };
 
 export const CLUBS: Club[] = [
-  {
-    "id": "14",
-    "name": "Dinamo City"
-  },
-  {
-    "id": "15",
-    "name": "Elbasani"
-  },
-  {
-    "id": "16",
-    "name": "Flamurtari Vlorë"
-  },
-  {
-    "id": "19",
-    "name": "KF Laçi"
-  },
-  {
-    "id": "21",
-    "name": "Partizani"
-  },
-  {
-    "id": "23",
-    "name": "KF Tirana"
-  },
-  {
-    "id": "25",
-    "name": "Apolonia Fier"
-  },
-  {
-    "id": "26",
-    "name": "Besa"
-  },
-  {
-    "id": "28",
-    "name": "Burreli"
-  },
-  {
-    "id": "29",
-    "name": "Bylis"
-  },
-  {
-    "id": "32",
-    "name": "Kastrioti"
-  },
-  {
-    "id": "34",
-    "name": "Lushnja"
-  },
-  {
-    "id": "36",
-    "name": "Pogradeci"
-  },
-  {
-    "id": "38",
-    "name": "Skënderbeu"
-  },
-  {
-    "id": "40",
-    "name": "Teuta"
-  },
-  {
-    "id": "44",
-    "name": "Vllaznia"
-  },
-  {
-    "id": "45",
-    "name": "Khroub"
-  },
-  {
-    "id": "46",
-    "name": "ASM Oran"
-  },
-  {
-    "id": "47",
-    "name": "ASO Chlef"
-  },
-  {
-    "id": "49",
-    "name": "CA Batna"
-  },
-  {
-    "id": "51",
-    "name": "Belouizdad"
-  },
-  {
-    "id": "53",
-    "name": "CS Constantine"
-  },
-  {
-    "id": "54",
-    "name": "ESM Mostaganem"
-  },
-  {
-    "id": "55",
-    "name": "ES Sétif"
-  },
-  {
-    "id": "56",
-    "name": "Kabylie"
-  },
-  {
-    "id": "58",
-    "name": "Skikda"
-  },
-  {
-    "id": "59",
-    "name": "MC Alger"
-  },
-  {
-    "id": "61",
-    "name": "MC Oran"
-  },
-  {
-    "id": "62",
-    "name": "MC Saïda"
-  },
-  {
-    "id": "64",
-    "name": "MO Constantine"
-  },
-  {
-    "id": "66",
-    "name": "NA Hussein Dey"
-  },
-  {
-    "id": "67",
-    "name": "Olympique Médéa"
-  },
-  {
-    "id": "68",
-    "name": "Paradou"
-  },
-  {
-    "id": "69",
-    "name": "Kouba"
-  },
-  {
-    "id": "71",
-    "name": "US Biskra"
-  },
-  {
-    "id": "72",
-    "name": "USM Alger"
-  },
-  {
-    "id": "73",
-    "name": "Annaba"
-  },
-  {
-    "id": "76",
-    "name": "El Harrach"
-  },
-  {
-    "id": "79",
-    "name": "Tlemcen"
-  },
-  {
-    "id": "81",
-    "name": "Atlètic d'Escaldes"
-  },
-  {
-    "id": "86",
-    "name": "Rànger's"
-  },
-  {
-    "id": "88",
-    "name": "FC Santa Coloma"
-  },
-  {
-    "id": "89",
-    "name": "Inter d'Escaldes"
-  },
-  {
-    "id": "96",
-    "name": "UE Santa Coloma"
-  },
-  {
-    "id": "98",
-    "name": "Boca Unidos"
-  },
-  {
-    "id": "99",
-    "name": "Argentinos Juniors"
-  },
-  {
-    "id": "100",
-    "name": "Arsenal"
-  },
-  {
-    "id": "101",
-    "name": "Atlético Rafaela"
-  },
-  {
-    "id": "102",
-    "name": "Aldosivi"
-  },
-  {
-    "id": "103",
-    "name": "All Boys"
-  },
-  {
-    "id": "104",
-    "name": "Banfield"
-  },
-  {
-    "id": "105",
-    "name": "CA Belgrano"
-  },
-  {
-    "id": "106",
-    "name": "Boca Juniors"
-  },
-  {
-    "id": "107",
-    "name": "Deportivo Merlo"
-  },
-  {
-    "id": "108",
-    "name": "Huracán"
-  },
-  {
-    "id": "109",
-    "name": "Independiente"
-  },
-  {
-    "id": "110",
-    "name": "Lanús"
-  },
-  {
-    "id": "112",
-    "name": "Patronato"
-  },
-  {
-    "id": "113",
-    "name": "Platense"
-  },
-  {
-    "id": "114",
-    "name": "River Plate"
-  },
-  {
-    "id": "115",
-    "name": "Rosario Central"
-  },
-  {
-    "id": "116",
-    "name": "Tigre"
-  },
-  {
-    "id": "117",
-    "name": "Atlético Tucumán"
-  },
-  {
-    "id": "118",
-    "name": "Ben Hur"
-  },
-  {
-    "id": "119",
-    "name": "Chacarita Juniors"
-  },
-  {
-    "id": "120",
-    "name": "Almirante Brown"
-  },
-  {
-    "id": "121",
-    "name": "Olimpo"
-  },
-  {
-    "id": "122",
-    "name": "Guillermo Brown"
-  },
-  {
-    "id": "123",
-    "name": "Desamparados"
-  },
-  {
-    "id": "124",
-    "name": "Colón"
-  },
-  {
-    "id": "126",
-    "name": "Defensa y Justicia"
-  },
-  {
-    "id": "127",
-    "name": "Estudiantes (LP)"
-  },
-  {
-    "id": "128",
-    "name": "Ferro Carril Oeste"
-  },
-  {
-    "id": "129",
-    "name": "Gimnasia (JU)"
-  },
-  {
-    "id": "130",
-    "name": "Gimnasia (LP)"
-  },
-  {
-    "id": "131",
-    "name": "Godoy Cruz"
-  },
-  {
-    "id": "132",
-    "name": "Atlanta"
-  },
-  {
-    "id": "133",
-    "name": "Indep. Rivadavia"
-  },
-  {
-    "id": "134",
-    "name": "Instituto"
-  },
-  {
-    "id": "135",
-    "name": "Newell's Old Boys"
-  },
-  {
-    "id": "136",
-    "name": "Quilmes"
-  },
-  {
-    "id": "137",
-    "name": "Racing Club"
-  },
-  {
-    "id": "138",
-    "name": "San Lorenzo"
-  },
-  {
-    "id": "139",
-    "name": "San Martín (SJ)"
-  },
-  {
-    "id": "140",
-    "name": "San Martín (T)"
-  },
-  {
-    "id": "141",
-    "name": "Talleres"
-  },
-  {
-    "id": "143",
-    "name": "Unión"
-  },
-  {
-    "id": "144",
-    "name": "Vélez Sarsfield"
-  },
-  {
-    "id": "145",
-    "name": "Ararat-Armenia"
-  },
-  {
-    "id": "151",
-    "name": "Gandzasar"
-  },
-  {
-    "id": "156",
-    "name": "Pyunik"
-  },
-  {
-    "id": "158",
-    "name": "Shirak"
-  },
-  {
-    "id": "171",
-    "name": "Adelaide"
-  },
-  {
-    "id": "172",
-    "name": "C. Coast Mariners"
-  },
-  {
-    "id": "173",
-    "name": "W. Sydney Wanderers"
-  },
-  {
-    "id": "174",
-    "name": "Melbourne Victory"
-  },
-  {
-    "id": "175",
-    "name": "Newcastle Jets"
-  },
-  {
-    "id": "176",
-    "name": "Melbourne City"
-  },
-  {
-    "id": "177",
-    "name": "Perth Glory"
-  },
-  {
-    "id": "178",
-    "name": "Brisbane Roar"
-  },
-  {
-    "id": "179",
-    "name": "Sydney"
-  },
-  {
-    "id": "180",
-    "name": "Wellington Phoenix"
-  },
-  {
-    "id": "182",
-    "name": "Leoben"
-  },
-  {
-    "id": "189",
-    "name": "Salzburg"
-  },
-  {
-    "id": "190",
-    "name": "Liefering"
-  },
-  {
-    "id": "192",
-    "name": "Admira"
-  },
-  {
-    "id": "193",
-    "name": "Austria Vienna"
-  },
-  {
-    "id": "195",
-    "name": "First Vienna"
-  },
-  {
-    "id": "197",
-    "name": "Kapfenberg"
-  },
-  {
-    "id": "198",
-    "name": "Wolfsberger"
-  },
-  {
-    "id": "200",
-    "name": "SCR Altach"
-  },
-  {
-    "id": "202",
-    "name": "Austria Klagenfurt"
-  },
-  {
-    "id": "203",
-    "name": "Rapid Wien"
-  },
-  {
-    "id": "204",
-    "name": "Sturm Graz"
-  },
-  {
-    "id": "205",
-    "name": "St. Pölten"
-  },
-  {
-    "id": "209",
-    "name": "Ried"
-  },
-  {
-    "id": "211",
-    "name": "Hartberg"
-  },
-  {
-    "id": "212",
-    "name": "Blau-Weiß"
-  },
-  {
-    "id": "216",
-    "name": "Qarabag"
-  },
-  {
-    "id": "217",
-    "name": "Karvan"
-  },
-  {
-    "id": "221",
-    "name": "Qäbälä"
-  },
-  {
-    "id": "223",
-    "name": "Sumgayit"
-  },
-  {
-    "id": "224",
-    "name": "Neftchi Baku"
-  },
-  {
-    "id": "225",
-    "name": "Turan"
-  },
-  {
-    "id": "233",
-    "name": "Al-Najma"
-  },
-  {
-    "id": "237",
-    "name": "Riffa"
-  },
-  {
-    "id": "239",
-    "name": "East Riffa"
-  },
-  {
-    "id": "242",
-    "name": "Manama"
-  },
-  {
-    "id": "243",
-    "name": "Muharraq"
-  },
-  {
-    "id": "245",
-    "name": "BATE Borisov"
-  },
-  {
-    "id": "246",
-    "name": "Belshyna"
-  },
-  {
-    "id": "247",
-    "name": "Slutsk"
-  },
-  {
-    "id": "248",
-    "name": "Dinamo Brest"
-  },
-  {
-    "id": "249",
-    "name": "Dinamo Minsk"
-  },
-  {
-    "id": "250",
-    "name": "Dinamo-Belkard"
-  },
-  {
-    "id": "252",
-    "name": "Baranovichi"
-  },
-  {
-    "id": "253",
-    "name": "Gomel"
-  },
-  {
-    "id": "254",
-    "name": "FC Minsk"
-  },
-  {
-    "id": "256",
-    "name": "Smorgon"
-  },
-  {
-    "id": "258",
-    "name": "Vitebsk"
-  },
-  {
-    "id": "261",
-    "name": "Klechesk Kletsk"
-  },
-  {
-    "id": "264",
-    "name": "Partizan Minsk"
-  },
-  {
-    "id": "265",
-    "name": "Slavia Mozyr"
-  },
-  {
-    "id": "266",
-    "name": "Naftan"
-  },
-  {
-    "id": "267",
-    "name": "Neman"
-  },
-  {
-    "id": "269",
-    "name": "Shakhtyor Soligorsk"
-  },
-  {
-    "id": "270",
-    "name": "FC Minsk II"
-  },
-  {
-    "id": "271",
-    "name": "Torpedo Zhodino"
-  },
-  {
-    "id": "275",
-    "name": "Volna Pinsk"
-  },
-  {
-    "id": "276",
-    "name": "Energetik-BGU"
-  },
-  {
-    "id": "277",
-    "name": "KAA Gent"
-  },
-  {
-    "id": "278",
-    "name": "Antwerp"
-  },
-  {
-    "id": "279",
-    "name": "Cercle Brugge"
-  },
-  {
-    "id": "280",
-    "name": "Club Brugge"
-  },
-  {
-    "id": "281",
-    "name": "Dender"
-  },
-  {
-    "id": "283",
-    "name": "Vise"
-  },
-  {
-    "id": "286",
-    "name": "Tubize"
-  },
-  {
-    "id": "287",
-    "name": "Beerschot"
-  },
-  {
-    "id": "288",
-    "name": "Sint-Truidensem"
-  },
-  {
-    "id": "291",
-    "name": "Deinze"
-  },
-  {
-    "id": "294",
-    "name": "Kortrijk"
-  },
-  {
-    "id": "295",
-    "name": "Mechelen"
-  },
-  {
-    "id": "296",
-    "name": "Oostende"
-  },
-  {
-    "id": "298",
-    "name": "Tienen"
-  },
-  {
-    "id": "299",
-    "name": "Lommel"
-  },
-  {
-    "id": "300",
-    "name": "Lierse"
-  },
-  {
-    "id": "301",
-    "name": "Olympic Charleroi"
-  },
-  {
-    "id": "302",
-    "name": "OH Leuven"
-  },
-  {
-    "id": "303",
-    "name": "Mons"
-  },
-  {
-    "id": "304",
-    "name": "RFC Liège"
-  },
-  {
-    "id": "305",
-    "name": "Anderlecht"
-  },
-  {
-    "id": "306",
-    "name": "Genk"
-  },
-  {
-    "id": "308",
-    "name": "SK Beveren"
-  },
-  {
-    "id": "309",
-    "name": "Cappellen"
-  },
-  {
-    "id": "312",
-    "name": "Zulte Waregem"
-  },
-  {
-    "id": "313",
-    "name": "Charleroi"
-  },
-  {
-    "id": "314",
-    "name": "Lokeren"
-  },
-  {
-    "id": "315",
-    "name": "Standard Liège"
-  },
-  {
-    "id": "316",
-    "name": "KAS Eupen"
-  }
-]
+  { "id": "14", "name": "Dinamo City" },
+  { "id": "15", "name": "Elbasani" },
+  { "id": "16", "name": "Flamurtari Vlorë" },
+  { "id": "19", "name": "KF Laçi" },
+  { "id": "21", "name": "Partizani" },
+  { "id": "23", "name": "KF Tirana" },
+  { "id": "25", "name": "Apolonia Fier" },
+  { "id": "26", "name": "Besa" },
+  { "id": "28", "name": "Burreli" },
+  { "id": "29", "name": "Bylis" },
+  { "id": "32", "name": "Kastrioti" },
+  { "id": "34", "name": "Lushnja" },
+  { "id": "36", "name": "Pogradeci" },
+  { "id": "38", "name": "Skënderbeu" },
+  { "id": "40", "name": "Teuta" },
+  { "id": "44", "name": "Vllaznia" },
+  { "id": "45", "name": "Khroub" },
+  { "id": "46", "name": "ASM Oran" },
+  { "id": "47", "name": "ASO Chlef" },
+  { "id": "49", "name": "CA Batna" },
+  { "id": "51", "name": "Belouizdad" },
+  { "id": "53", "name": "CS Constantine" },
+  { "id": "54", "name": "ESM Mostaganem" },
+  { "id": "55", "name": "ES Sétif" },
+  { "id": "56", "name": "Kabylie" },
+  { "id": "58", "name": "Skikda" },
+  { "id": "59", "name": "MC Alger" },
+  { "id": "61", "name": "MC Oran" },
+  { "id": "62", "name": "MC Saïda" },
+  { "id": "64", "name": "MO Constantine" },
+  { "id": "66", "name": "NA Hussein Dey" },
+  { "id": "67", "name": "Olympique Médéa" },
+  { "id": "68", "name": "Paradou" },
+  { "id": "69", "name": "Kouba" },
+  { "id": "71", "name": "US Biskra" },
+  { "id": "72", "name": "USM Alger" },
+  { "id": "73", "name": "Annaba" },
+  { "id": "76", "name": "El Harrach" },
+  { "id": "79", "name": "Tlemcen" },
+  { "id": "81", "name": "Atlètic d'Escaldes" },
+  { "id": "86", "name": "Rànger's" },
+  { "id": "88", "name": "FC Santa Coloma" },
+  { "id": "89", "name": "Inter d'Escaldes" },
+  { "id": "96", "name": "UE Santa Coloma" },
+  { "id": "98", "name": "Boca Unidos" },
+  { "id": "99", "name": "Argentinos Juniors" },
+  { "id": "100", "name": "Arsenal" },
+  { "id": "101", "name": "Atlético Rafaela" },
+  { "id": "102", "name": "Aldosivi" },
+  { "id": "103", "name": "All Boys" },
+  { "id": "104", "name": "Banfield" },
+  { "id": "105", "name": "CA Belgrano" },
+  { "id": "106", "name": "Boca Juniors" },
+  { "id": "107", "name": "Deportivo Merlo" },
+  { "id": "108", "name": "Huracán" },
+  { "id": "109", "name": "Independiente" },
+  { "id": "110", "name": "Lanús" },
+  { "id": "112", "name": "Patronato" },
+  { "id": "113", "name": "Platense" },
+  { "id": "114", "name": "River Plate" },
+  { "id": "115", "name": "Rosario Central" },
+  { "id": "116", "name": "Tigre" },
+  { "id": "117", "name": "Atlético Tucumán" },
+  { "id": "118", "name": "Ben Hur" },
+  { "id": "119", "name": "Chacarita Juniors" },
+  { "id": "120", "name": "Almirante Brown" },
+  { "id": "121", "name": "Olimpo" },
+  { "id": "122", "name": "Guillermo Brown" },
+  { "id": "123", "name": "Desamparados" },
+  { "id": "124", "name": "Colón" },
+  { "id": "126", "name": "Defensa y Justicia" },
+  { "id": "127", "name": "Estudiantes (LP)" },
+  { "id": "128", "name": "Ferro Carril Oeste" },
+  { "id": "129", "name": "Gimnasia (JU)" },
+  { "id": "130", "name": "Gimnasia (LP)" },
+  { "id": "131", "name": "Godoy Cruz" },
+  { "id": "132", "name": "Atlanta" },
+  { "id": "133", "name": "Indep. Rivadavia" },
+  { "id": "134", "name": "Instituto" },
+  { "id": "135", "name": "Newell's Old Boys" },
+  { "id": "136", "name": "Quilmes" },
+  { "id": "137", "name": "Racing Club" },
+  { "id": "138", "name": "San Lorenzo" },
+  { "id": "139", "name": "San Martín (SJ)" },
+  { "id": "140", "name": "San Martín (T)" },
+  { "id": "141", "name": "Talleres" },
+  { "id": "143", "name": "Unión" },
+  { "id": "144", "name": "Vélez Sarsfield" },
+  { "id": "145", "name": "Ararat-Armenia" },
+  { "id": "151", "name": "Gandzasar" },
+  { "id": "156", "name": "Pyunik" },
+  { "id": "158", "name": "Shirak" },
+  { "id": "171", "name": "Adelaide" },
+  { "id": "172", "name": "C. Coast Mariners" },
+  { "id": "173", "name": "W. Sydney Wanderers" },
+  { "id": "174", "name": "Melbourne Victory" },
+  { "id": "175", "name": "Newcastle Jets" },
+  { "id": "176", "name": "Melbourne City" },
+  { "id": "177", "name": "Perth Glory" },
+  { "id": "178", "name": "Brisbane Roar" },
+  { "id": "179", "name": "Sydney" },
+  { "id": "180", "name": "Wellington Phoenix" },
+  { "id": "182", "name": "Leoben" },
+  { "id": "189", "name": "Salzburg" },
+  { "id": "190", "name": "Liefering" },
+  { "id": "192", "name": "Admira" },
+  { "id": "193", "name": "Austria Vienna" },
+  { "id": "195", "name": "First Vienna" },
+  { "id": "197", "name": "Kapfenberg" },
+  { "id": "198", "name": "Wolfsberger" },
+  { "id": "200", "name": "SCR Altach" },
+  { "id": "202", "name": "Austria Klagenfurt" },
+  { "id": "203", "name": "Rapid Wien" },
+  { "id": "204", "name": "Sturm Graz" },
+  { "id": "205", "name": "St. Pölten" },
+  { "id": "209", "name": "Ried" },
+  { "id": "211", "name": "Hartberg" },
+  { "id": "212", "name": "Blau-Weiß" },
+  { "id": "216", "name": "Qarabag" },
+  { "id": "217", "name": "Karvan" },
+  { "id": "221", "name": "Qäbälä" },
+  { "id": "223", "name": "Sumgayit" },
+  { "id": "224", "name": "Neftchi Baku" },
+  { "id": "225", "name": "Turan" },
+  { "id": "233", "name": "Al-Najma" },
+  { "id": "237", "name": "Riffa" },
+  { "id": "239", "name": "East Riffa" },
+  { "id": "242", "name": "Manama" },
+  { "id": "243", "name": "Muharraq" },
+  { "id": "245", "name": "BATE Borisov" },
+  { "id": "246", "name": "Belshyna" },
+  { "id": "247", "name": "Slutsk" },
+  { "id": "248", "name": "Dinamo Brest" },
+  { "id": "249", "name": "Dinamo Minsk" },
+  { "id": "250", "name": "Dinamo-Belkard" },
+  { "id": "252", "name": "Baranovichi" },
+  { "id": "253", "name": "Gomel" },
+  { "id": "254", "name": "FC Minsk" },
+  { "id": "256", "name": "Smorgon" },
+  { "id": "258", "name": "Vitebsk" },
+  { "id": "261", "name": "Klechesk Kletsk" },
+  { "id": "264", "name": "Partizan Minsk" },
+  { "id": "265", "name": "Slavia Mozyr" },
+  { "id": "266", "name": "Naftan" },
+  { "id": "267", "name": "Neman" },
+  { "id": "269", "name": "Shakhtyor Soligorsk" },
+  { "id": "270", "name": "FC Minsk II" },
+  { "id": "271", "name": "Torpedo Zhodino" },
+  { "id": "275", "name": "Volna Pinsk" },
+  { "id": "276", "name": "Energetik-BGU" },
+  { "id": "277", "name": "KAA Gent" },
+  { "id": "278", "name": "Antwerp" },
+  { "id": "279", "name": "Cercle Brugge" },
+  { "id": "280", "name": "Club Brugge" },
+  { "id": "281", "name": "Dender" },
+  { "id": "283", "name": "Vise" },
+  { "id": "286", "name": "Tubize" },
+  { "id": "287", "name": "Beerschot" },
+  { "id": "288", "name": "Sint-Truidensem" },
+  { "id": "291", "name": "Deinze" },
+  { "id": "294", "name": "Kortrijk" },
+  { "id": "295", "name": "Mechelen" },
+  { "id": "296", "name": "Oostende" },
+  { "id": "298", "name": "Tienen" },
+  { "id": "299", "name": "Lommel" },
+  { "id": "300", "name": "Lierse" },
+  { "id": "301", "name": "Olympic Charleroi" },
+  { "id": "302", "name": "OH Leuven" },
+  { "id": "303", "name": "Mons" },
+  { "id": "304", "name": "RFC Liège" },
+  { "id": "305", "name": "Anderlecht" },
+  { "id": "306", "name": "Genk" },
+  { "id": "308", "name": "SK Beveren" },
+  { "id": "309", "name": "Cappellen" },
+  { "id": "312", "name": "Zulte Waregem" },
+  { "id": "313", "name": "Charleroi" },
+  { "id": "314", "name": "Lokeren" },
+  { "id": "315", "name": "Standard Liège" },
+  { "id": "316", "name": "KAS Eupen" },
+  { "id": "317", "name": "Union Saint-Gilloise" },
+  { "id": "321", "name": "Westerlo" },
+  { "id": "335", "name": "Guabirá" },
+  { "id": "336", "name": "Aurora" },
+  { "id": "337", "name": "Blooming" },
+  { "id": "338", "name": "Bolívar" },
+  { "id": "339", "name": "Nacional Potosi" },
+  { "id": "340", "name": "San José" },
+  { "id": "343", "name": "Oriente Petrolero" },
+  { "id": "345", "name": "Real Potosí" },
+  { "id": "346", "name": "The Strongest" },
+  { "id": "349", "name": "Borac BL" },
+  { "id": "359", "name": "Rudar Prijedor" },
+  { "id": "365", "name": "Radnik" },
+  { "id": "366", "name": "Rudar Kakanj" },
+  { "id": "368", "name": "Sarajevo" },
+  { "id": "371", "name": "Sloboda Tuzla" },
+  { "id": "372", "name": "Sloga" },
+  { "id": "374", "name": "Velez Mostar" },
+  { "id": "377", "name": "GOŠK" },
+  { "id": "379", "name": "Zrinjski" },
+  { "id": "385", "name": "Gradina" },
+  { "id": "391", "name": "Siroki Brijeg" },
+  { "id": "395", "name": "ABC" },
+  { "id": "396", "name": "Atlético-GO" },
+  { "id": "397", "name": "América-MG" },
+  { "id": "398", "name": "Athletico-PR" },
+  { "id": "399", "name": "Avaí" },
+  { "id": "400", "name": "Botafogo" },
+  { "id": "401", "name": "Atlético-MG" },
+  { "id": "402", "name": "RB Bragantino" },
+  { "id": "403", "name": "Ceará" },
+  { "id": "405", "name": "Coritiba" },
+  { "id": "406", "name": "Criciúma" },
+  { "id": "407", "name": "Cruzeiro" },
+  { "id": "408", "name": "Bahia" },
+  { "id": "409", "name": "Figueirense" },
+  { "id": "410", "name": "Flamengo" },
+  { "id": "411", "name": "Fluminense" },
+  { "id": "413", "name": "Goiás" },
+  { "id": "414", "name": "Grêmio" },
+  { "id": "416", "name": "Internacional" },
+  { "id": "417", "name": "ASA" },
+  { "id": "418", "name": "Guarani" },
+  { "id": "421", "name": "Náutico" },
+  { "id": "422", "name": "Palmeiras" },
+  { "id": "423", "name": "Paraná" },
+  { "id": "425", "name": "Ponte Preta" },
+  { "id": "426", "name": "Portuguesa-RJ" },
+  { "id": "427", "name": "Remo" },
+  { "id": "428", "name": "Corinthians" },
+  { "id": "429", "name": "Santa Cruz" },
+  { "id": "431", "name": "Santos" },
+  { "id": "433", "name": "Sport Recife" },
+  { "id": "435", "name": "São Paulo" },
+  { "id": "436", "name": "Vasco da Gama" },
+  { "id": "437", "name": "Vila Nova" },
+  { "id": "438", "name": "Vitória" },
+  { "id": "439", "name": "Akademik" },
+  { "id": "442", "name": "Dobrudzha" },
+  { "id": "443", "name": "Dorostol" },
+  { "id": "444", "name": "Beroe" },
+  { "id": "446", "name": "Ludogorets" },
+  { "id": "447", "name": "CSKA Sofia" },
+  { "id": "450", "name": "Cherno More" },
+  { "id": "452", "name": "Chernomorets Burgas" },
+  { "id": "453", "name": "Dunav" },
+  { "id": "454", "name": "Marek Dupnitsa" },
+  { "id": "458", "name": "Levski" },
+  { "id": "460", "name": "Botev Vratsa" },
+  { "id": "461", "name": "Lokomotiv Plovdiv" },
+  { "id": "462", "name": "Lokomotiv Sofia" },
+  { "id": "467", "name": "Minyor Pernik" },
+  { "id": "471", "name": "Montana" },
+  { "id": "472", "name": "Nesebar" },
+  { "id": "473", "name": "Pirin B'grad" },
+  { "id": "477", "name": "Slavia Sofia" },
+  { "id": "478", "name": "Spartak Pleven" },
+  { "id": "480", "name": "Spartak Varna" },
+  { "id": "481", "name": "Svoge" },
+  { "id": "490", "name": "York" },
+  { "id": "491", "name": "London City" },
+  { "id": "494", "name": "FC Montreal" },
+  { "id": "503", "name": "Vancouver WC" },
+  { "id": "504", "name": "Victoria" },
+  { "id": "505", "name": "Dep. Antofagasta" },
+  { "id": "506", "name": "Audax Italiano" },
+  { "id": "507", "name": "Cobresal" },
+  { "id": "508", "name": "Ñublense" },
+  { "id": "509", "name": "Rangers" },
+  { "id": "510", "name": "Cobreloa" },
+  { "id": "511", "name": "Colo Colo" },
+  { "id": "512", "name": "Coquimbo" },
+  { "id": "513", "name": "Curicó Unido" },
+  { "id": "515", "name": "Copiapó" },
+  { "id": "516", "name": "La Serena" },
+  { "id": "517", "name": "Magallanes" },
+  { "id": "518", "name": "Temuco" },
+  { "id": "519", "name": "Everton" },
+  { "id": "520", "name": "Deportes Naval" },
+  { "id": "521", "name": "Huachipato" },
+  { "id": "522", "name": "Lota Schwager" },
+  { "id": "523", "name": "Deportes Iquique" },
+  { "id": "524", "name": "O'Higgins" },
+  { "id": "525", "name": "Palestino" },
+  { "id": "526", "name": "San Marcos" },
+  { "id": "527", "name": "Puerto Montt" },
+  { "id": "528", "name": "San Luis" },
+  { "id": "529", "name": "Santiago Morning" },
+  { "id": "530", "name": "Santiago Wanderers" },
+  { "id": "531", "name": "Univ. Católica" },
+  { "id": "532", "name": "U. de Chile" },
+  { "id": "533", "name": "Univ. Concepción" },
+  { "id": "534", "name": "Unión Española" },
+  { "id": "535", "name": "U. La Calera" },
+  { "id": "536", "name": "U. San Felipe" },
+  { "id": "538", "name": "Beijing Guoan" },
+  { "id": "541", "name": "Changchun Yatai" },
+  { "id": "544", "name": "Chengdu Rongcheng" },
+  { "id": "545", "name": "Yunnan Yukun" },
+  { "id": "547", "name": "Guizhou Zhucheng" },
+  { "id": "552", "name": "Liaoning Tieren" },
+  { "id": "560", "name": "Shanghai Shenhua" },
+  { "id": "568", "name": "Yanbian Longding" },
+  { "id": "570", "name": "América de Cali" },
+  { "id": "571", "name": "Atlético Huila" },
+  { "id": "572", "name": "Real Cartagena" },
+  { "id": "573", "name": "Junior" },
+  { "id": "574", "name": "Atlético Nacional" },
+  { "id": "575", "name": "Boyacá Chicó" },
+  { "id": "576", "name": "La Equidad" },
+  { "id": "577", "name": "Millonarios" },
+  { "id": "579", "name": "Deportes Quindío" },
+  { "id": "580", "name": "Deportes Tolima" },
+  { "id": "581", "name": "Deportivo Cali" },
+  { "id": "583", "name": "Deportivo Pereira" },
+  { "id": "584", "name": "Envigado" },
+  { "id": "585", "name": "Indep. Medellín" },
+  { "id": "586", "name": "Indep. Santa Fe" },
+  { "id": "587", "name": "Once Caldas" },
+  { "id": "589", "name": "Pérez Zeledón" },
+  { "id": "591", "name": "San Carlos" },
+  { "id": "593", "name": "Cartaginés" },
+  { "id": "594", "name": "Herediano" },
+  { "id": "595", "name": "Saprissa" },
+  { "id": "596", "name": "Alajuelense" },
+  { "id": "597", "name": "Santos de Guapiles" },
+  { "id": "598", "name": "Puntarenas" },
+  { "id": "600", "name": "Cibalia" },
+  { "id": "601", "name": "Croatia Sesvete" },
+  { "id": "602", "name": "Dinamo Zagreb" },
+  { "id": "603", "name": "Šibenik" },
+  { "id": "604", "name": "Rijeka" },
+  { "id": "607", "name": "Hajduk Split" },
+  { "id": "609", "name": "Istra 1961" },
+  { "id": "611", "name": "Lokomotiva" },
+  { "id": "612", "name": "Dugopolje" },
+  { "id": "615", "name": "Marsonia" },
+  { "id": "616", "name": "Karlovac" },
+  { "id": "621", "name": "Osijek" },
+  { "id": "623", "name": "Rudeš" },
+  { "id": "624", "name": "Solin" },
+  { "id": "630", "name": "Slaven Belupo" },
+  { "id": "631", "name": "Varaždin" },
+  { "id": "632", "name": "AEK Larnaca" },
+  { "id": "633", "name": "AEL Limassol" },
+  { "id": "636", "name": "APOEL" },
+  { "id": "639", "name": "Akritas Chloraka" },
+  { "id": "643", "name": "Anorthosis" },
+  { "id": "644", "name": "Apollon Limassol" },
+  { "id": "650", "name": "EN Paralimni" },
+  { "id": "652", "name": "Ermis Aradippou" },
+  { "id": "653", "name": "Ethnikos" },
+  { "id": "656", "name": "MEAP Nisou" },
+  { "id": "657", "name": "Nea Salamina" },
+  { "id": "658", "name": "Olympiakos Nic." },
+  { "id": "660", "name": "Omonia Aradippou" },
+  { "id": "661", "name": "Omonia Nicosia" },
+  { "id": "663", "name": "PAEEK" },
+  { "id": "664", "name": "Brno" },
+  { "id": "665", "name": "Slovácko" },
+  { "id": "666", "name": "Příbram" },
+  { "id": "667", "name": "Karvina" },
+  { "id": "668", "name": "Baník Ostrava" },
+  { "id": "669", "name": "Baník Sokolov" },
+  { "id": "670", "name": "Bohemians Praha" },
+  { "id": "672", "name": "Sparta Praha B" },
+  { "id": "673", "name": "Varnsdorf" },
+  { "id": "674", "name": "Dukla" },
+  { "id": "676", "name": "Hlučín" },
+  { "id": "678", "name": "Jablonec" },
+  { "id": "679", "name": "Mladá Boleslav" },
+  { "id": "680", "name": "Teplice" },
+  { "id": "681", "name": "Vlasim" },
+  { "id": "682", "name": "Hradec Králové" },
+  { "id": "684", "name": "Opava" },
+  { "id": "685", "name": "Kladno" },
+  { "id": "686", "name": "Sigma Olomouc" },
+  { "id": "687", "name": "Sigma B" },
+  { "id": "688", "name": "Slavia Praha" },
+  { "id": "689", "name": "Slovan Liberec" },
+  { "id": "691", "name": "Sparta Praha" },
+  { "id": "692", "name": "FC Zlin" },
+  { "id": "693", "name": "Trinec" },
+  { "id": "694", "name": "Viktoria Plzeň" },
+  { "id": "695", "name": "Viktoria Zizkov" },
+  { "id": "696", "name": "Jihlava" },
+  { "id": "699", "name": "Ústí nad Labem" },
+  { "id": "700", "name": "Horsens" },
+  { "id": "701", "name": "AGF Aarhus" },
+  { "id": "703", "name": "Aalborg BK" },
+  { "id": "705", "name": "Aarhus Fremad" },
+  { "id": "706", "name": "AB" },
+  { "id": "713", "name": "B 93" },
+  { "id": "714", "name": "Brabrand" },
+  { "id": "715", "name": "Brøndby" },
+  { "id": "718", "name": "Esbjerg" },
+  { "id": "721", "name": "Fredericia" },
+  { "id": "724", "name": "Copenhagen" },
+  { "id": "725", "name": "Midtjylland" },
+  { "id": "726", "name": "Nordsjælland" },
+  { "id": "727", "name": "FC Roskilde" },
+  { "id": "732", "name": "Hellerup IK" },
+  { "id": "734", "name": "Hobro" },
+  { "id": "737", "name": "Hvidovre" },
+  { "id": "738", "name": "FC Helsingør" },
+  { "id": "741", "name": "HB Køge" },
+  { "id": "742", "name": "Nykøbing" },
+  { "id": "743", "name": "Lyngby" },
+  { "id": "745", "name": "Næstved" },
+  { "id": "746", "name": "Odense Boldklub" },
+  { "id": "748", "name": "Randers" },
+  { "id": "749", "name": "Middelfart" },
+  { "id": "750", "name": "Silkeborg" },
+  { "id": "756", "name": "SønderjyskE" },
+  { "id": "760", "name": "Vejle" },
+  { "id": "761", "name": "Viborg" },
+  { "id": "764", "name": "Barcelona SC" },
+  { "id": "765", "name": "El Nacional" },
+  { "id": "766", "name": "Espoli" },
+  { "id": "767", "name": "Olmedo" },
+  { "id": "769", "name": "Imbabura" },
+  { "id": "770", "name": "Emelec" },
+  { "id": "772", "name": "Manta" },
+  { "id": "773", "name": "Cuenca" },
+  { "id": "775", "name": "LDU Quito" },
+  { "id": "776", "name": "Moqaouloun" },
+  { "id": "777", "name": "El-Entag" },
+  { "id": "778", "name": "ENPPI" },
+  { "id": "779", "name": "Al-Ahly" },
+  { "id": "780", "name": "El-Ittihad" },
+  { "id": "781", "name": "Al Masry" },
+  { "id": "782", "name": "Smouha" },
+  { "id": "783", "name": "El-Makasa" },
+  { "id": "784", "name": "Haras" },
+  { "id": "785", "name": "Ismaily" },
+  { "id": "787", "name": "Petrojet" },
+  { "id": "788", "name": "Wadi Degla" },
+  { "id": "789", "name": "El Gaish" },
+  { "id": "790", "name": "El Gouna" },
+  { "id": "791", "name": "Zamalek" },
+  { "id": "792", "name": "Metapán" },
+  { "id": "793", "name": "Alianza" },
+  { "id": "797", "name": "FAS" },
+  { "id": "799", "name": "Águila" },
+  { "id": "800", "name": "LA Firpo" },
+  { "id": "802", "name": "Bournemouth" },
+  { "id": "803", "name": "Hornchurch" },
+  { "id": "804", "name": "Telford Utd" },
+  { "id": "805", "name": "Wimbledon" },
+  { "id": "806", "name": "Accrington" },
+  { "id": "807", "name": "Aldershot" },
+  { "id": "808", "name": "Alfreton Town" },
+  { "id": "809", "name": "Altrincham" },
+  { "id": "810", "name": "Arsenal" },
+  { "id": "811", "name": "Aston Villa" },
+  { "id": "812", "name": "Barnet" },
+  { "id": "813", "name": "Barnsley" },
+  { "id": "814", "name": "Barrow" },
+  { "id": "816", "name": "Bath" },
+  { "id": "817", "name": "Bedford" },
+  { "id": "818", "name": "Birmingham City" },
+  { "id": "820", "name": "Blackburn Rovers" },
+  { "id": "821", "name": "Blackpool" },
+  { "id": "822", "name": "Blyth Spartans" },
+  { "id": "823", "name": "Bognor Regis" },
+  { "id": "824", "name": "Bolton" },
+  { "id": "825", "name": "Boston" },
+  { "id": "826", "name": "Brackley" },
+  { "id": "827", "name": "Bradford" },
+  { "id": "828", "name": "Braintree" },
+  { "id": "829", "name": "Brentford" },
+  { "id": "830", "name": "Brighton" },
+  { "id": "831", "name": "Bristol City" },
+  { "id": "832", "name": "Bristol Rovers" },
+  { "id": "833", "name": "Bromley" },
+  { "id": "834", "name": "Burnley" },
+  { "id": "836", "name": "Burton Albion" },
+  { "id": "838", "name": "Buxton" },
+  { "id": "840", "name": "Cambridge Utd" },
+  { "id": "841", "name": "Cardiff City" },
+  { "id": "842", "name": "Carlisle" },
+  { "id": "843", "name": "Charlton" },
+  { "id": "844", "name": "Chelmsford" },
+  { "id": "845", "name": "Chelsea" },
+  { "id": "846", "name": "Cheltenham" },
+  { "id": "847", "name": "Chester" },
+  { "id": "848", "name": "Chesterfield" },
+  { "id": "849", "name": "Chippenham" },
+  { "id": "851", "name": "Colchester" },
+  { "id": "853", "name": "Coventry" },
+  { "id": "854", "name": "Crawley" },
+  { "id": "855", "name": "Crewe Alexandra" },
+  { "id": "856", "name": "Crystal Palace" },
+  { "id": "857", "name": "Dag and Red" },
+  { "id": "858", "name": "Darlington" },
+  { "id": "859", "name": "Derby County" },
+  { "id": "860", "name": "Doncaster" },
+  { "id": "862", "name": "Dover" },
+  { "id": "864", "name": "Eastbourne Boro" },
+  { "id": "865", "name": "Eastleigh" },
+  { "id": "867", "name": "Ebbsfleet Utd" },
+  { "id": "868", "name": "Everton" },
+  { "id": "869", "name": "Exeter City" },
+  { "id": "870", "name": "Halifax" },
+  { "id": "873", "name": "Farsley Celtic" },
+  { "id": "875", "name": "Fleetwood" },
+  { "id": "876", "name": "Forest Green" },
+  { "id": "877", "name": "Fulham" },
+  { "id": "879", "name": "Gateshead" },
+  { "id": "880", "name": "Gillingham" },
+  { "id": "881", "name": "Gloucester" },
+  { "id": "883", "name": "Grimsby" },
+  { "id": "886", "name": "Hampton & Richmond" },
+  { "id": "887", "name": "Harrogate" },
+  { "id": "889", "name": "Hartlepool" },
+  { "id": "893", "name": "Hemel Hempstead" },
+  { "id": "895", "name": "Hereford" },
+  { "id": "898", "name": "Horsham" },
+  { "id": "900", "name": "Huddersfield Town" },
+  { "id": "901", "name": "Hull City" },
+  { "id": "902", "name": "Hyde Utd" },
+  { "id": "904", "name": "Ipswich Town" },
+  { "id": "906", "name": "Kidderminster" },
+  { "id": "907", "name": "King's Lynn" },
+  { "id": "908", "name": "Lancaster" },
+  { "id": "909", "name": "Leeds" },
+  { "id": "910", "name": "Leicester City" },
+  { "id": "913", "name": "Leyton Orient" },
+  { "id": "914", "name": "Lincoln" },
+  { "id": "915", "name": "Liverpool" },
+  { "id": "916", "name": "Luton" },
+  { "id": "917", "name": "Macclesfield" },
+  { "id": "918", "name": "Maidenhead" },
+  { "id": "919", "name": "Manchester City" },
+  { "id": "920", "name": "Manchester United" },
+  { "id": "921", "name": "Mansfield" },
+  { "id": "922", "name": "Margate" },
+  { "id": "924", "name": "Middlesbrough" },
+  { "id": "925", "name": "Millwall" },
+  { "id": "926", "name": "MK Dons" },
+  { "id": "927", "name": "Morecambe" },
+  { "id": "928", "name": "Newcastle United" },
+  { "id": "929", "name": "Newport County" },
+  { "id": "930", "name": "Northampton" },
+  { "id": "932", "name": "Norwich" },
+  { "id": "933", "name": "Nottingham Forest" },
+  { "id": "934", "name": "Notts County" },
+  { "id": "936", "name": "Oldham" },
+  { "id": "937", "name": "Oxford City" },
+  { "id": "938", "name": "Oxford" },
+  { "id": "939", "name": "Peterborough Utd" },
+  { "id": "940", "name": "Plymouth Argyle" },
+  { "id": "941", "name": "Port Vale" },
+  { "id": "942", "name": "Portsmouth" },
+  { "id": "943", "name": "Preston North End" },
+  { "id": "944", "name": "Q. Park Rangers" },
+  { "id": "946", "name": "Reading" },
+  { "id": "948", "name": "Rochdale" },
+  { "id": "949", "name": "Rotherham" },
+  { "id": "951", "name": "Salisbury" },
+  { "id": "952", "name": "Scarborough" },
+  { "id": "953", "name": "Scunthorpe" },
+  { "id": "954", "name": "Sheffield United" },
+  { "id": "955", "name": "Sheffield Wednesday" },
+  { "id": "956", "name": "Shrewsbury" },
+  { "id": "957", "name": "Slough" },
+  { "id": "958", "name": "Solihull" },
+  { "id": "959", "name": "Southampton" },
+  { "id": "960", "name": "Southend" },
+  { "id": "961", "name": "Southport" },
+  { "id": "962", "name": "St Albans" },
+  { "id": "966", "name": "Tonbridge" },
+  { "id": "967", "name": "Stevenage" },
+  { "id": "968", "name": "Stockport" },
+  { "id": "969", "name": "Stoke City" },
+  { "id": "970", "name": "Sunderland" },
+  { "id": "971", "name": "Sutton United" },
+  { "id": "972", "name": "Swansea" },
+  { "id": "973", "name": "Swindon" },
+  { "id": "974", "name": "Tamworth" },
+  { "id": "975", "name": "Truro" },
+  { "id": "976", "name": "Torquay" },
+  { "id": "977", "name": "Tottenham Hotspur" },
+  { "id": "978", "name": "Tranmere Rovers" },
+  { "id": "979", "name": "Spennymoor" },
+  { "id": "980", "name": "Walsall" },
+  { "id": "981", "name": "Watford" },
+  { "id": "983", "name": "West Bromwich A." },
+  { "id": "984", "name": "West Ham United" },
+  { "id": "986", "name": "Weymouth" },
+  { "id": "987", "name": "Wigan" },
+  { "id": "989", "name": "Woking" },
+  { "id": "990", "name": "Wolverhampton" },
+  { "id": "993", "name": "Worksop" },
+  { "id": "994", "name": "Wrexham" },
+  { "id": "995", "name": "Wycombe" },
+  { "id": "996", "name": "Yeovil" },
+  { "id": "999", "name": "Elva" },
+  { "id": "1000", "name": "Flora" },
+  { "id": "1001", "name": "Kuressaare" },
+  { "id": "1003", "name": "Paide" },
+  { "id": "1004", "name": "Tammeka" },
+  { "id": "1007", "name": "Levadia" },
+  { "id": "1008", "name": "Nõmme Kalju" },
+  { "id": "1011", "name": "Legion" },
+  { "id": "1012", "name": "Tallinna Kalev" },
+  { "id": "1015", "name": "Narva Trans" },
+  { "id": "1021", "name": "Tikves" },
+  { "id": "1032", "name": "Ohrid" },
+  { "id": "1033", "name": "Pelister" },
+  { "id": "1034", "name": "Pobeda" },
+  { "id": "1035", "name": "Rabotnički" },
+  { "id": "1046", "name": "KF Shkëndija" },
+  { "id": "1047", "name": "Sileks" },
+  { "id": "1048", "name": "Shkupi" },
+  { "id": "1051", "name": "Vardar Skopje" },
+  { "id": "1056", "name": "B36" },
+  { "id": "1064", "name": "HB" },
+  { "id": "1066", "name": "KÍ" },
+  { "id": "1070", "name": "NSÍ" },
+  { "id": "1078", "name": "Víkingur Gøta" },
+  { "id": "1081", "name": "ÍF" },
+  { "id": "1084", "name": "Oulu" },
+  { "id": "1086", "name": "Haka" },
+  { "id": "1087", "name": "Honka" },
+  { "id": "1089", "name": "Inter Turku" },
+  { "id": "1093", "name": "Jaro" },
+  { "id": "1096", "name": "HJK Helsinki" },
+  { "id": "1097", "name": "SJK Seinäjoki" },
+  { "id": "1098", "name": "Mariehamn" },
+  { "id": "1102", "name": "KPV Kokkola" },
+  { "id": "1103", "name": "KuPS" },
+  { "id": "1109", "name": "Gnistan" },
+  { "id": "1114", "name": "VPS Vaasa" },
+  { "id": "1115", "name": "HIFK Helsinki" },
+  { "id": "1116", "name": "Ajaccio" },
+  { "id": "1117", "name": "Arles-Avignon" },
+  { "id": "1118", "name": "Auxerre" },
+  { "id": "1119", "name": "Beauvais" },
+  { "id": "1120", "name": "Cannes" },
+  { "id": "1121", "name": "Cherbourg" },
+  { "id": "1122", "name": "Monaco" },
+  { "id": "1123", "name": "Nancy" },
+  { "id": "1124", "name": "Saint-Étienne" },
+  { "id": "1125", "name": "Amiens" },
+  { "id": "1126", "name": "Angers" },
+  { "id": "1128", "name": "Besançon" },
+  { "id": "1129", "name": "Louhans-Cuiseaux" },
+  { "id": "1130", "name": "Sedan" },
+  { "id": "1131", "name": "Frejus" },
+  { "id": "1133", "name": "Clermont" },
+  { "id": "1134", "name": "Dijon" },
+  { "id": "1136", "name": "Troyes" },
+  { "id": "1137", "name": "Guingamp" },
+  { "id": "1138", "name": "Bordeaux" },
+  { "id": "1139", "name": "Gueugnon" },
+  { "id": "1140", "name": "Istres" },
+  { "id": "1141", "name": "Martigues" },
+  { "id": "1142", "name": "Metz" },
+  { "id": "1143", "name": "Nantes" },
+  { "id": "1144", "name": "Rouen" },
+  { "id": "1145", "name": "Sochaux" },
+  { "id": "1146", "name": "Sète" },
+  { "id": "1147", "name": "Toulouse" },
+  { "id": "1148", "name": "Grenoble" },
+  { "id": "1149", "name": "Evian" },
+  { "id": "1150", "name": "Châteauroux" },
+  { "id": "1151", "name": "Le Havre" },
+  { "id": "1152", "name": "Le Mans" },
+  { "id": "1153", "name": "Libourne" },
+  { "id": "1154", "name": "Lille" },
+  { "id": "1155", "name": "Lorient" },
+  { "id": "1156", "name": "Montpellier" },
+  { "id": "1157", "name": "Nîmes" },
+  { "id": "1158", "name": "Nice" },
+  { "id": "1160", "name": "Olympique Lyon" },
+  { "id": "1161", "name": "Marseille" },
+  { "id": "1163", "name": "Paris FC" },
+  { "id": "1164", "name": "PSG" },
+  { "id": "1165", "name": "Lens" },
+  { "id": "1166", "name": "Strasbourg" },
+  { "id": "1167", "name": "Rodez" },
+  { "id": "1168", "name": "Bastia" },
+  { "id": "1169", "name": "Caen" },
+  { "id": "1170", "name": "Orleans" },
+  { "id": "1171", "name": "Colmar" },
+  { "id": "1172", "name": "Toulon" },
+  { "id": "1173", "name": "Brest" },
+  { "id": "1174", "name": "Stade Lavallois" },
+  { "id": "1175", "name": "Rennes" },
+  { "id": "1176", "name": "Reims" },
+  { "id": "1177", "name": "Athlético Marseille" },
+  { "id": "1178", "name": "Boulogne" },
+  { "id": "1179", "name": "Créteil" },
+  { "id": "1180", "name": "Luzenac" },
+  { "id": "1181", "name": "Quevilly-Rouen" },
+  { "id": "1182", "name": "Valenciennes" },
+  { "id": "1183", "name": "Vannes" },
+  { "id": "1185", "name": "Dila Gori" },
+  { "id": "1186", "name": "Dinamo Batumi" },
+  { "id": "1187", "name": "Dinamo Tbilisi" },
+  { "id": "1188", "name": "Gagra" },
+  { "id": "1191", "name": "Lokomotive Tbilisi" },
+  { "id": "1192", "name": "Merani" },
+  { "id": "1193", "name": "Samtredia" },
+  { "id": "1194", "name": "Rustavi Metalurgist" },
+  { "id": "1196", "name": "Sioni" },
+  { "id": "1198", "name": "Torpedo Kutaisi" },
+  { "id": "1199", "name": "WIT" },
+  { "id": "1200", "name": "Eintracht Bamberg" },
+  { "id": "1201", "name": "Kaiserslautern" },
+  { "id": "1203", "name": "Köln" },
+  { "id": "1204", "name": "Magdeburg" },
+  { "id": "1205", "name": "Nürnberg" },
+  { "id": "1206", "name": "Saarbrücken" },
+  { "id": "1207", "name": "Union Berlin" },
+  { "id": "1208", "name": "Mainz 05" },
+  { "id": "1209", "name": "Alemannia Aachen" },
+  { "id": "1211", "name": "Arminia Bielefeld" },
+  { "id": "1213", "name": "Bayer Leverkusen" },
+  { "id": "1215", "name": "Bayern München" },
+  { "id": "1217", "name": "Dortmund" },
+  { "id": "1219", "name": "Bor. M'gladbach" },
+  { "id": "1222", "name": "Dynamo Dresden" },
+  { "id": "1223", "name": "Eint. Braunschweig" },
+  { "id": "1224", "name": "Eintracht Frankfurt" },
+  { "id": "1225", "name": "Energie" },
+  { "id": "1226", "name": "Erzgebirge Aue" },
+  { "id": "1227", "name": "Augsburg" },
+  { "id": "1228", "name": "Ingolstadt" },
+  { "id": "1231", "name": "Schalke 04" },
+  { "id": "1232", "name": "St. Pauli" },
+  { "id": "1236", "name": "Fortuna Düsseldorf" },
+  { "id": "1238", "name": "Hamburg" },
+  { "id": "1240", "name": "Hannover" },
+  { "id": "1241", "name": "Hansa Rostock" },
+  { "id": "1242", "name": "Hertha BSC" },
+  { "id": "1244", "name": "Holstein Kiel" },
+  { "id": "1246", "name": "Karlsruhe" },
+  { "id": "1247", "name": "Munster" },
+  { "id": "1250", "name": "MSV Duisburg" },
+  { "id": "1253", "name": "Rot-Weiss Essen" },
+  { "id": "1255", "name": "Freiburg" },
+  { "id": "1256", "name": "Paderborn" },
+  { "id": "1258", "name": "Verl" },
+  { "id": "1259", "name": "Jahn Regensburg" },
+  { "id": "1262", "name": "Darmstadt" },
+  { "id": "1264", "name": "Elversberg" },
+  { "id": "1265", "name": "Sandhausen" },
+  { "id": "1266", "name": "Waldhof Mannheim" },
+  { "id": "1267", "name": "Wiesbaden" },
+  { "id": "1268", "name": "Werder Bremen" },
+  { "id": "1269", "name": "Heidenheim" },
+  { "id": "1271", "name": "Greuther Fürth" },
+  { "id": "1272", "name": "Unterhaching" },
+  { "id": "1276", "name": "Hoffenheim" },
+  { "id": "1277", "name": "1860 München" },
+  { "id": "1281", "name": "Lübeck" },
+  { "id": "1282", "name": "Stuttgart" },
+  { "id": "1283", "name": "Stuttgart II" },
+  { "id": "1284", "name": "Bochum" },
+  { "id": "1285", "name": "Osnabrück" },
+  { "id": "1286", "name": "Wolfsburg" },
+  { "id": "1289", "name": "Wacker Burghausen" },
+  { "id": "1293", "name": "AEL Larissa" },
+  { "id": "1295", "name": "AEK" },
+  { "id": "1298", "name": "Zakynthos" },
+  { "id": "1302", "name": "Agrotikos Asteras" },
+  { "id": "1304", "name": "Aiolikos" },
+  { "id": "1308", "name": "Anagennisi Karditsa" },
+  { "id": "1310", "name": "Aris" },
+  { "id": "1312", "name": "AO Kavala" },
+  { "id": "1313", "name": "Atromitos" },
+  { "id": "1315", "name": "Diagoras" },
+  { "id": "1316", "name": "Doxa Drama" },
+  { "id": "1322", "name": "Ethnikos Piraeus" },
+  { "id": "1323", "name": "Panserraikos" },
+  { "id": "1327", "name": "Ilioupoli" },
+  { "id": "1328", "name": "Ilisiakos" },
+  { "id": "1329", "name": "Ionikos" },
+  { "id": "1330", "name": "Iraklis Larisas" },
+  { "id": "1331", "name": "Kallithea" },
+  { "id": "1336", "name": "Lamia" },
+  { "id": "1337", "name": "Levadiakos" },
+  { "id": "1338", "name": "Makedonikos" },
+  { "id": "1342", "name": "Niki Volos" },
+  { "id": "1343", "name": "OFI Creta" },
+  { "id": "1345", "name": "Olympiacos" },
+  { "id": "1349", "name": "Egaleo" },
+  { "id": "1350", "name": "Kastoria" },
+  { "id": "1351", "name": "Thiva" },
+  { "id": "1352", "name": "PAOK" },
+  { "id": "1353", "name": "PAS Giannina" },
+  { "id": "1355", "name": "Kalamata" },
+  { "id": "1356", "name": "Panachaiki" },
+  { "id": "1357", "name": "Panargiakos" },
+  { "id": "1358", "name": "Panathinaikos" },
+  { "id": "1360", "name": "Panetolikos" },
+  { "id": "1361", "name": "Panionios" },
+  { "id": "1362", "name": "Panthrakikos" },
+  { "id": "1364", "name": "Rodos" },
+  { "id": "1365", "name": "Pierikos" },
+  { "id": "1367", "name": "Thermaikos" },
+  { "id": "1370", "name": "Veria" },
+  { "id": "1373", "name": "Malacateco" },
+  { "id": "1374", "name": "Marquense" },
+  { "id": "1377", "name": "Comunicaciones" },
+  { "id": "1378", "name": "Municipal" },
+  { "id": "1379", "name": "Xinabajul" },
+  { "id": "1383", "name": "Xelajú" },
+  { "id": "1384", "name": "Marathón" },
+  { "id": "1385", "name": "Motagua" },
+  { "id": "1386", "name": "Olimpia" },
+  { "id": "1387", "name": "Platense" },
+  { "id": "1388", "name": "Victoria" },
+  { "id": "1389", "name": "Vida" },
+  { "id": "1391", "name": "Choloma" },
+  { "id": "1392", "name": "Real España" },
+  { "id": "1396", "name": "Eastern" },
+  { "id": "1399", "name": "Happy Valley" },
+  { "id": "1402", "name": "Kitchee" },
+  { "id": "1411", "name": "Siófok" },
+  { "id": "1412", "name": "BKV Előre" },
+  { "id": "1416", "name": "Honvéd" },
+  { "id": "1417", "name": "Budaörsik" },
+  { "id": "1418", "name": "Békéscsaba" },
+  { "id": "1420", "name": "Debrecen" },
+  { "id": "1421", "name": "Diósgyőr" },
+  { "id": "1424", "name": "Ajka" },
+  { "id": "1425", "name": "Fehérvár" },
+  { "id": "1426", "name": "Mezőkövesd" },
+  { "id": "1427", "name": "Tatabánya" },
+  { "id": "1428", "name": "Ferencváros" },
+  { "id": "1429", "name": "Győr Eto" },
+  { "id": "1431", "name": "Gyirmót" },
+  { "id": "1434", "name": "Puskás" },
+  { "id": "1436", "name": "Kazincbarcika" },
+  { "id": "1437", "name": "Kecskeméti" },
+  { "id": "1438", "name": "Kozármisleny" },
+  { "id": "1440", "name": "MTK Budapest" },
+  { "id": "1443", "name": "Nyíregyháza" },
+  { "id": "1444", "name": "Paksi" },
+  { "id": "1445", "name": "Pécs" },
+  { "id": "1449", "name": "Haladás" },
+  { "id": "1451", "name": "Budafoki" },
+  { "id": "1452", "name": "Vasas" },
+  { "id": "1456", "name": "Veszprém" },
+  { "id": "1457", "name": "Újpest" },
+  { "id": "1458", "name": "Afturelding" },
+  { "id": "1459", "name": "Breiðablik" },
+  { "id": "1460", "name": "FH" },
+  { "id": "1465", "name": "Vestri" },
+  { "id": "1466", "name": "HK" },
+  { "id": "1470", "name": "KA" },
+  { "id": "1472", "name": "Keflavík" },
+  { "id": "1473", "name": "Víkingur Reykjavík" },
+  { "id": "1474", "name": "KR" },
+  { "id": "1476", "name": "Fram" },
+  { "id": "1481", "name": "Selfoss" },
+  { "id": "1482", "name": "Stjarnan" },
+  { "id": "1487", "name": "Valur" },
+  { "id": "1491", "name": "ÍBV" },
+  { "id": "1495", "name": "ÍA" },
+  { "id": "1496", "name": "Fylkir" },
+  { "id": "1500", "name": "Churchill Bros" },
+  { "id": "1501", "name": "Dempo" },
+  { "id": "1504", "name": "HAL" },
+  { "id": "1506", "name": "East Bengal" },
+  { "id": "1508", "name": "Mohammedan SC" },
+  { "id": "1518", "name": "Ashdod" },
+  { "id": "1519", "name": "B. Jerusalem" },
+  { "id": "1522", "name": "Bnei Sakhnin" },
+  { "id": "1523", "name": "Bnei Yehuda" },
+  { "id": "1524", "name": "Nes Tziona" },
+  { "id": "1526", "name": "H. Acre" },
+  { "id": "1528", "name": "H. Be'er Sheva" },
+  { "id": "1532", "name": "Hapoel Haifa" },
+  { "id": "1533", "name": "H. Kiryat Shmona" },
+  { "id": "1534", "name": "H. Rishon LeZion" },
+  { "id": "1535", "name": "H. Hadera" },
+  { "id": "1536", "name": "H. Kfar-Saba" },
+  { "id": "1540", "name": "H. Petah Tikva" },
+  { "id": "1541", "name": "H. Ra'anana" },
+  { "id": "1542", "name": "H. Ramat-Gan" },
+  { "id": "1543", "name": "Hapoel Tel Aviv" },
+  { "id": "1546", "name": "H. Ramat HaSharon" },
+  { "id": "1550", "name": "Maccabi Haifa" },
+  { "id": "1554", "name": "M. Kafr Kanna" },
+  { "id": "1555", "name": "M. Netanya" },
+  { "id": "1556", "name": "M. Petah Tikva" },
+  { "id": "1557", "name": "Maccabi Tel Aviv" },
+  { "id": "1558", "name": "Gubbio" },
+  { "id": "1560", "name": "Cesena" },
+  { "id": "1563", "name": "Lumezzane" },
+  { "id": "1564", "name": "Mantova" },
+  { "id": "1566", "name": "Milan" },
+  { "id": "1570", "name": "Reggiana" },
+  { "id": "1571", "name": "AC Carpi" },
+  { "id": "1572", "name": "Siena" },
+  { "id": "1573", "name": "Fiorentina" },
+  { "id": "1574", "name": "Bari" },
+  { "id": "1575", "name": "Cittadella" },
+  { "id": "1576", "name": "US Livorno" },
+  { "id": "1577", "name": "Lucchese" },
+  { "id": "1578", "name": "Roma" },
+  { "id": "1579", "name": "Spezia" },
+  { "id": "1580", "name": "Ascoli" },
+  { "id": "1581", "name": "Atalanta" },
+  { "id": "1582", "name": "Benevento" },
+  { "id": "1583", "name": "Bologna" },
+  { "id": "1585", "name": "Cagliari" },
+  { "id": "1586", "name": "Catania FC" },
+  { "id": "1587", "name": "Como" },
+  { "id": "1588", "name": "Padova" },
+  { "id": "1589", "name": "Empoli" },
+  { "id": "1590", "name": "Crotone" },
+  { "id": "1592", "name": "Frosinone" },
+  { "id": "1593", "name": "Union Brescia" },

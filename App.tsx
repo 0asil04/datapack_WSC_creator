@@ -16,40 +16,51 @@ const ImageEditorHeader = () => (
 const MainMenu = ({ onNavigate }: { onNavigate: (view: View) => void }) => (
     <div className="bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border border-gray-700">
         <div className="flex flex-col items-center justify-center text-center gap-6 w-full">
-            <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-4">
-            Ferramentas de datapack para WSC
-            </h1>
+            <div className="relative">
+                <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 mb-4">
+                    Ferramentas de datapack para WSC
+                </h1>
+                <span className="absolute -top-2 -right-12 text-xs font-bold bg-purple-600 text-white py-1 px-2 rounded-full transform rotate-12">
+                    v2.0
+                </span>
+            </div>
             <div className="space-y-4 w-full max-w-sm">
-            <button
-                onClick={() => onNavigate('zipEditor')}
-                className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
-                aria-label="Navegar para o Editor de Ficheiro ZIP"
-            >
-                Editor de Ficheiro ZIP
-            </button>
-            <button
-                onClick={() => onNavigate('imageEditor')}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
-                aria-label="Navegar para o Editor de Imagens WSC"
-            >
-                Editor de Imagens WSC
-            </button>
-            <a
-                href="https://criador-de-data-pack.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
-            >
-                Editor de arquivos de texto
-            </a>
-            <a
-                href="https://www.monkeyibrowstudios.com/worldsoccerchamps-dp-instructions/v70/instructions.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
-            >
-                Baixar datapack PRO e RETROLEGENDS
-            </a>
+                <div>
+                    <button
+                        disabled
+                        className="w-full bg-gray-600 text-gray-400 font-semibold py-3 px-6 rounded-lg cursor-not-allowed"
+                        aria-label="Editor de Ficheiro ZIP (Em breve)"
+                    >
+                        Editor de Ficheiro ZIP
+                    </button>
+                    <p className="text-xs text-gray-500 mt-1">Em breve, na versão 3.0</p>
+                </div>
+                <button
+                    onClick={() => onNavigate('imageEditor')}
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                    aria-label="Navegar para o Editor de Imagens WSC"
+                >
+                    Editor de Imagens WSC
+                </button>
+                <a
+                    href="https://criador-de-data-pack.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                >
+                    Editor de arquivos de texto
+                </a>
+                <a
+                    href="https://www.monkeyibrowstudios.com/worldsoccerchamps-dp-instructions/v70/instructions.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                >
+                    Baixar datapack PRO e RETROLEGENDS
+                </a>
+            </div>
+            <div className="mt-8 text-center text-sm text-gray-500">
+                <p>Criado por: Asil e thesussyboy</p>
             </div>
         </div>
     </div>
